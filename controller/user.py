@@ -3,6 +3,7 @@ import sqlite3
 import pandas as pd
 #import models.colddrinks as cd
 
+
 conn = sqlite3.connect('data.db', check_same_thread=False)
 c = conn.cursor()
 def create_table():
